@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+void main()
+{
+	setlocale(LC_ALL,"rus");
+	int fun(int x, int y);
+	cout <<"¬ведите два числа \n";
+	int a,b,w;
+	cin>> a>>b;
+	w = fun(a,b);
+	cout<<w;
+	
+	system ("pause");
+
+
+}
+int fun (int x,int y)
+{
+	int rac;
+	if (x<y)
+	{
+		rac =x*x;
+	}
+	else
+	{
+		rac = y*y;
+	}
+	return rac;
+}

@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+class vuchisl //внешняя функция
+{public:
+int chislo;
+
+vuchisl ploshad (vuchisl peremen1); //объявление внешней функции члена
+
+vuchisl perimetr (vuchisl peremen2)//объявление  функции-члена
+{
+vuchisl  per; //определение функции-члена класса. периметр
+per.chislo = (chislo + peremen2)*2;
+cout <<"Периметр равен:"<<per.chislo;
+return per;
+}
+vuchisl vuchisl :: ploshad (vuchisl peremen1)
+{
+vuchisl plo; // определение внешней функции. площадь
+plo=chislo*peremen1;
+return plo;
+}
+};
+int main () // Главная программа
+{ vuchisl a, b,s,d;
+a.chislo = 2; //Задание начальных значений
+b.chislo = 3;
+s=a.ploshad(b);
+d=b.perimetr(a);
+cout<<s.chislo<<d.chislo;
+	system("pause");
+return 0;
+}

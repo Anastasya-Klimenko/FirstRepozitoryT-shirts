@@ -1,0 +1,30 @@
+#include <iostream>
+#include <windows.h>
+
+using namespace std;
+void main()
+{
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	int m = 100, i = 0;
+	double x1 = -0.3, x2 = 0.3, x;
+	double* odmassive = new double[m];
+	odmassive[i] = 0;
+	i = 0;
+	while (i < m)
+	{
+		odmassive[i]= i + sin(x(i - 2));
+		i++;
+	}
+	i = 0;
+	cout << "Получим следуюший одномерный массив \n";
+	do//выводим одномерный массив
+	{
+		cout << odmassive[i] << "\t";
+		i++;
+	} while (i < m);
+	i = 0;
+	
+	cout << endl;//завершение программы
+	system("pause");//команда, не позволяющая закрыться консоли до нажатия клавиши
+}
