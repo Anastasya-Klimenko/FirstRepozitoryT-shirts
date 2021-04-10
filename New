@@ -1,0 +1,52 @@
+1.	<p>&nbsp;</p>
+2.	<div class="content">
+3.	<h1 style="text-align: center;">Форма заказа</h1>
+4.	<p style="text-align: left;"><span style="font-size: x-large;"> Поля, отмеченные *, обязательны для заполнения.</span></p>
+5.	<main><form action="act.php" method="POST">
+6.	<table style="height: 234px;">
+7.	<tbody>
+8.	<tr class="l" style="height: 36px;">
+9.	<td style="height: 36px; width: 306.832px;">Фамилия, Имя, Отчество на русском языке*</td>
+10.	<td style="height: 36px; width: 510px;"><input type="text" placeholder="Клим Алексей Никитич" /></td>
+11.	</tr>
+12.	<tr class="l" style="height: 50px;">
+13.	<td style="height: 50px; width: 306.832px;">Одежда*</td>
+14.	<td style="height: 50px; width: 500.733px;"><select style="width: 500px; height: 50px;">
+15.	<option>Футболка</option>
+16.	<option>Шорты</option>
+17.	<option>Рубашка</option>
+18.	<option>Тенниска</option>
+19.	<option>Майка</option>
+20.	</select></td>
+21.	</tr>
+22.	<tr class="l" style="height: 50px;">
+23.	<td style="height: 50px; width: 306.832px;">Размер одежды*</td>
+24.	<td style="height: 50px; width: 500.733px;"><select style="width: 500px; height: 50px;">
+25.	<option>S</option>
+26.	<option>M</option>
+27.	<option>L</option>
+28.	<option>XL</option>
+29.	</select></td>
+30.	</tr>
+31.	<tr class="l" style="height: 17px;">
+32.	<td style="height: 17px; width: 306.832px;">Цвет одежды*</td>
+33.	<td style="height: 17px; width: 500.733px;">&nbsp;</td>
+34.	</tr>
+35.	<tr class="l" style="height: 20px;">
+36.	<td style="height: 20px; width: 306.832px;">Телефон мобильный для связи*</td>
+37.	<td style="height: 20px; width: 500.733px;"><input pattern="+7(9XX)XXX-XXX" type="tel" placeholder="+7(9XX)XXX-XХ-XX" /></td>
+38.	</tr>
+39.	<tr class="l" style="height: 17px;">
+40.	<td style="height: 17px; width: 306.832px;">Ваш почтоый адрес*</td>
+41.	<td style="height: 17px; width: 500.733px;">&nbsp;</td>
+42.	</tr>
+43.	<tr class="r" style="height: 23px;">
+44.	<td style="height: 23px; width: 306.832px;">Дата рождения</td>
+45.	<td style="height: 23px; width: 500.733px;"><input type="date" placeholder="01-02-1998" /></td>
+46.	</tr>
+47.	<tr class="l" style="height: 21px;">
+48.	<td style="height: 21px; width: 813.445px;" colspan="2" align="center"><button>Отправить</button></td>
+49.	</tr>
+50.	</tbody>
+51.	</table>
+52.	</form></main></div>
